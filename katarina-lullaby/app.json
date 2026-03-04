@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Katarina's Lullaby",
+    "slug": "katarina-lullaby",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#13111C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.katarina.lullaby"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#13111C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.katarina.lullaby"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
